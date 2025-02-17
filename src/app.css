@@ -4,5 +4,5 @@
 @import "tailwindcss";
 
 .icon {
-    @apply aspect-square border-gray-700 border-[2px] bg-gray-900 text-2xl rounded-xl size-15 flex justify-center items-center;
+    @apply aspect-square border-gray-700 border bg-gray-900 text-2xl rounded-xl size-15 flex justify-center items-center cursor-pointer;
 }

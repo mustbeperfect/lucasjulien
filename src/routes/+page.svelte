@@ -1,5 +1,5 @@
 <script lang="ts">
-    //import "https://kit.fontawesome.com/66d41db8a2.js";
+
 </script>
 
 <main class="bg-black h-screen w-screen flex flex-row">
@@ -30,8 +30,10 @@
                     <div class="size-[12px] bg-yellow-400 rounded-full"></div>
                     <div class="size-[12px] bg-green-600 rounded-full"></div>
                 </div>
-                <div class="w-full bg-gray-900 rounded-sm border border-gray-700 text-xs text-gray-500 py-1 text-center tracking-wider">lucasjulien.com</div>
-                <div class="w-full"></div>
+                <div class="w-full bg-gray-900 rounded-sm border border-gray-700 text-xs text-gray-300 py-1 text-center tracking-wider">lucasjulien.com</div>
+                <div class="w-full text-gray-500 flex justify-end">
+                    <i class="bi bi-clipboard"></i>
+                </div>
             </div>
             <div class="h-px bg-gray-700 w-full"></div>
             <div class="flex flex-row size-full font-mono">
@@ -52,16 +54,19 @@
                     <div>14</div>
                     <div>15</div>
                 </div>
+
+                <div class="w-px bg-gray-700 min-h-full"></div>
+
                 <div class="bg-gray-950 p-5 text-xs flex flex-col gap-3 tracking-widest min-h-full w-full rounded-br-3xl text-white">
                     <div>class <span class="text-green-400">Lucas</span></div>
                     <div>{'{'}</div>
                     <div class="ml-[25px]"><span class="text-blue-400">public static void</span> Main(<span class="text-blue-400">string</span>[] <span class="text-blue-400">args</span>)</div>
                     <div class="ml-[25px]">{'{'}</div>
-                    <div class="ml-[50px]"><span class="text-blue-400">String</span>[] lucasLinks = <span class="text-blue-400">new string</span>[4];</div>
-                    <div class="ml-[50px]">lucasLinks[<span class="text-green-400">0</span>] = <span class="text-green-400">"My Blog posts"</span>;</div>
-                    <div class="ml-[50px]">lucasLinks[<span class="text-green-400">1</span>] = <span class="text-green-400">"My MacOS Configuration"</span>;</div>
-                    <div class="ml-[50px]">lucasLinks[<span class="text-green-400">2</span>] = <span class="text-green-400">"My definitive list of open source software"</span>;</div>
-                    <div class="ml-[50px]">lucasLinks[<span class="text-green-400">3</span>] = <span class="text-green-400">"How my brain works"</span>;</div>
+                    <div class="ml-[50px]"><span class="text-blue-400">String</span>[] links = <span class="text-blue-400">new string</span>[4];</div>
+                    <div class="ml-[50px]">links[<span class="text-green-400">0</span>] = <span class="text-green-400">"What I'm building"</span>;</div>
+                    <div class="ml-[50px]">links[<span class="text-green-400">1</span>] = <span class="text-green-400">"My MacOS configuration"</span>;</div>
+                    <div class="ml-[50px]">links[<span class="text-green-400">2</span>] = <span class="text-green-400">"My definitive list of open source"</span>;</div>
+                    <div class="ml-[50px]">links[<span class="text-green-400">3</span>] = <span class="text-green-400">"About me"</span>;</div>
                     <div class="ml-[25px]">}</div>
                     <div>}</div>
                 </div>
