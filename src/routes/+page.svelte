@@ -4,18 +4,18 @@
 
 <main class="bg-black h-screen w-screen flex flex-row">
     <nav class="flex flex-col">
-        <div class="flex flex-col flex-1 p-4 justify-center items-center gap-5">
-            <div class="aspect-square border-gray-700 border-[2px] bg-gray-900 p-4 text-2xl rounded-xl size-15 flex justify-center align-center">
-                <i class="fa-brands fa-github"></i>
+        <div class="flex flex-col flex-1 p-4 justify-center items-center gap-5 text-white">
+            <div class="icon">
+                <i class="bi bi-github"></i>
             </div>
-            <div class="aspect-square border-gray-700 border-[2px] bg-gray-900 p-4 text-2xl rounded-xl size-15 flex justify-center align-center">
-                <i class="fa-brands fa-youtube"></i>
+            <div class="icon">
+                <i class="bi bi-youtube"></i>
             </div>
-            <div class="aspect-square border-gray-700 border-[2px] bg-gray-900 p-4 text-2xl rounded-xl size-15 flex justify-center align-center">
-                <i class="fa-solid fa-file-lines"></i>
+            <div class="icon">
+                <i class="bi bi-file-earmark-text-fill"></i>
             </div>
-            <div class="aspect-square border-gray-700 border-[2px] bg-gray-900 p-4 text-2xl rounded-xl size-15 flex justify-center align-center">
-                <i class="fa-solid fa-envelope"></i>
+            <div class="icon">
+                <i class="bi bi-envelope-fill"></i>
             </div>
         </div>
         <div class="h-px bg-gray-900 w-full"></div>
