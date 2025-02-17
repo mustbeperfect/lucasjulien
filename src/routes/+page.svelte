@@ -5,18 +5,18 @@
 <main class="bg-black h-screen w-screen flex flex-row">
     <nav class="flex flex-col">
         <div class="flex flex-col flex-1 p-4 justify-center items-center gap-5 text-white">
-            <div class="icon">
+            <a class="icon" href="https://github.com/mustbeperfect" aria-label="Github">
                 <i class="bi bi-github"></i>
-            </div>
-            <div class="icon">
+            </a>
+            <a class="icon" href="" aria-label="Youtube">
                 <i class="bi bi-youtube"></i>
-            </div>
-            <div class="icon">
+            </a>
+            <a class="icon" href="" aria-label="Blog">
                 <i class="bi bi-file-earmark-text-fill"></i>
-            </div>
-            <div class="icon">
+            </a>
+            <a class="icon" href="mailto:mustbeperfectforever@gmail.com" aria-label="Email">
                 <i class="bi bi-envelope-fill"></i>
-            </div>
+            </a>
         </div>
         <div class="h-px bg-gray-900 w-full"></div>
         <div class="text-gray-500 text-xs p-4 text-center w-full">v0.1.0</div>
@@ -63,10 +63,10 @@
                     <div class="ml-[25px]"><span class="text-blue-400">public static void</span> Main(<span class="text-blue-400">string</span>[] <span class="text-blue-400">args</span>)</div>
                     <div class="ml-[25px]">{'{'}</div>
                     <div class="ml-[50px]"><span class="text-blue-400">String</span>[] links = <span class="text-blue-400">new string</span>[4];</div>
-                    <div class="ml-[50px]">links[<span class="text-green-400">0</span>] = <span class="text-green-400">"What I'm building"</span>;</div>
-                    <div class="ml-[50px]">links[<span class="text-green-400">1</span>] = <span class="text-green-400">"My MacOS configuration"</span>;</div>
-                    <div class="ml-[50px]">links[<span class="text-green-400">2</span>] = <span class="text-green-400">"My definitive list of open source"</span>;</div>
-                    <div class="ml-[50px]">links[<span class="text-green-400">3</span>] = <span class="text-green-400">"About me"</span>;</div>
+                    <div class="ml-[50px]">links[<span class="text-green-400">0</span>] = <a class="link" href="">"What I'm building"</a>;</div>
+                    <div class="ml-[50px]">links[<span class="text-green-400">1</span>] = <a class="link" href="https://docs.google.com/document/d/1QF7wpvlFG7mfWtCGrFfyIUwgYzOYeSBDAIDvgiIJk44/edit?usp=sharing">"My MacOS configuration"</a>;</div>
+                    <div class="ml-[50px]">links[<span class="text-green-400">2</span>] = <a class="link" href="https://github.com/mustbeperfect/definitive-opensource">"My definitive list of open source"</a>;</div>
+                    <div class="ml-[50px]">links[<span class="text-green-400">3</span>] = <a class="link" href="">"My blog posts"</a>;</div>
                     <div class="ml-[25px]">}</div>
                     <div>}</div>
                 </div>
