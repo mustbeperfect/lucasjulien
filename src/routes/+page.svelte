@@ -2,9 +2,9 @@
 
 </script>
 
-<main class="bg-black h-screen w-screen flex flex-row">
+<main class="bg-black h-screen w-screen flex flex-col md:flex-row">
     <nav class="flex flex-col">
-        <div class="flex flex-col flex-1 p-4 justify-center items-center gap-5 text-white">
+        <div class="flex flex-row md:flex-col flex-1 p-4 justify-center items-center gap-5 text-white">
             <a class="icon" href="https://github.com/mustbeperfect" aria-label="Github">
                 <i class="bi bi-github"></i>
             </a>
@@ -18,11 +18,11 @@
                 <i class="bi bi-envelope-fill"></i>
             </a>
         </div>
-        <div class="h-px bg-gray-900 w-full"></div>
-        <div class="text-gray-500 text-xs p-4 text-center w-full">v0.1.0</div>
+        <div class="hidden md:block h-px bg-gray-900 w-full"></div>
+        <div class="hidden md:block text-gray-500 text-xs p-4 text-center w-full">v0.1.0</div>
     </nav>
-    <div class="w-px bg-gray-900 h-screen"></div>
-    <div class="flex justify-center items-center w-full h-full">
+    <div class="hidden md:block w-px bg-gray-900 h-screen"></div>
+    <div class="flex justify-center md:items-center w-full h-full px-4">
         <div class="flex flex-col w-3xl border-gray-700 h-min border rounded-2xl">
             <div class="flex items-center w-full px-5 py-2">
                 <div class="flex gap-3 w-full">
@@ -30,7 +30,7 @@
                     <div class="size-[12px] bg-yellow-400 rounded-full"></div>
                     <div class="size-[12px] bg-green-600 rounded-full"></div>
                 </div>
-                <div class="w-full bg-gray-900 rounded-sm border border-gray-700 text-xs text-gray-300 py-1 text-center tracking-wider">lucasjulien.com</div>
+                <div class="w-full bg-gray-900 rounded-sm border border-gray-700 text-xs text-gray-300 py-1 text-center tracking-wider hidden md:block">lucasjulien.com</div>
                 <div class="w-full text-gray-500 flex justify-end">
                     <i class="bi bi-clipboard"></i>
                 </div>
