@@ -76,3 +76,7 @@
     border-style: solid;
     cursor: pointer;
 }
+
+.link {
+    text-decoration: none;
+}
