@@ -181,15 +181,17 @@
         display: flex;
         flex-direction: column;
         height: 100vh;
+        width: 100%;
     }
     .sidebar {
         display: flex;
         flex-direction: row;
+        justify-content: left;
         font-family: cursive;
         color: var(--gray-7);
-        gap: 10px;
+        padding: 25px;
+        gap: 20px;
         font-size: 18px;
-        padding: 75px;
         width: 100%;
     }
     .sidebar-line-x {
@@ -203,18 +205,19 @@
     }
     .sidebar-line-y {
         background-color: var(--gray-d);
-        min-width: 1px;
-        width: 1px;
-        max-width: 1px;
-        height: 100%;
-        margin-top: 75px;
-        margin-bottom: 75px;
-        display: none;
+        min-height: 1px;
+        height: 1px;
+        max-height: 1px;
+        min-width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 25px;
+        margin-right: 25px;
     }
     .content {
         display: flex;
         flex-direction: column;
-        padding-top: 25px;
+        padding-top: 50px;
         width: 100%;
         gap: 25px;
     }
