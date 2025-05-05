@@ -212,6 +212,14 @@ img {
     color: black !important;
 }
 
+.smaller-title {
+    font-size: 25px !important;
+    font-family: 'Noto Serif', Times, serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: black !important;
+}
+
 .text-dark {
     color: black !important;
 }
