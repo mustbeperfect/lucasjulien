@@ -15,9 +15,9 @@
     <div class="sidebar">
       <div class="nav-housing">
         <nav class="nav">
-          <button id="about-btn">About</button>
-          <button id="thoughts-btn">Thoughts</button>
-          <button id="projects-btn">Projects</button>
+          <a href="#about" id="about-btn">About</a>
+          <a href="#thoughts" id="thoughts-btn">Thoughts</a>
+          <a href="#projects" id="projects-btn">Projects</a>
           <div class="sidebar-line-x"></div>
           <a class="text-dark" href="https://github.com/mustbeperfect">GitHub</a>
           <a class="text-dark" href="mailto:mustbeperfectforever@gmail.com">Email</a>
@@ -28,10 +28,13 @@
 
     <main class="main-section">
       <div class="content">
+
+        <!-- About -->
+
         <div class="about">
           <div class="title">Lucas Julien</div>
-          <div>I'm an absolute perfectionist, open source enthusiast, tech nerd, and adventure motorcyclist. I also like science fiction, existential topics, and writing (I'm not very good at it though).</div>
-          <a class="button-housing">
+          <div>I'm an absolute perfectionist, open source enthusiast, tech nerd, and adventure motorcyclist. I also like science fiction, existential topics, and writing.</div>
+          <a href="#about" class="button-housing">
             <div>About Me</div>
             <i class="bi bi-arrow-up-right"></i>
           </a>
@@ -40,36 +43,140 @@
         <div class="content-line-x"></div>
 
         <div class="sub-content">
-          <div class="">#thought</div>
+          <div class="">01</div>
           <div class="text-dark">Why so minimal?</div>
           <div>Websites exist to convey information, and almost always there's a lot of it, even for the simplest of functionality. This site is one of the few places where all I need is to convey my thoughts - no accounts, no documentation, just text. So that's how I built it, nothing more.</div> 
         </div>
 
-        <div class="content-line-x"></div>
+        <div id="about" class="sub-content">
+          <div class="content-line-x"></div>
+          <div class="text-dark">About Me</div>
+          <div class="content-line-x"></div>
+        </div>
 
         <div class="sub-content">
-          <div class="">#project</div>
-          <div class="text-dark">Open Source, Forever.</div>
-          <div>The digital world is dominated by corporations who orchestrate mass data harvesting. Open source alternatives that are just as good as the proprietary software you use, exist. Fully transparent, and community built. That's why I created <span class="text-dark">definitive-opensource</span>, THE list with the best open source projects.</div>
-          <img src="assets/definitiveos.png" alt="definitiveos">
+          <div class="">01</div>
+          <div class="text-dark">I'm a perfectionist.</div>
+          <div>It's a horrible burden; perfectionism just isn't possible to achieve within the constraints of reality. It's too complicated to explain in a tiny blurb so you can read my post about it here.</div> 
         </div>
 
         <div class="content-line-x"></div>
 
         <div class="sub-content">
-          <div class="">#thought</div>
-          <div class="text-dark">Civ 5, the Best Game.</div>
+          <div class="">02</div>
+          <div class="text-dark">I ❤️ open source.</div>
+          <div>I used proprietary software for most of my life. Like most, I didn't know that viable open source alternatives exist. In a digital world dominated by corporations who orchestrate mass data harvesting, the transparency of open source is something I can't live without.</div> 
+        </div>
+
+        <div class="content-line-x"></div>
+
+        <div class="sub-content">
+          <div class="">03</div>
+          <div class="text-dark">I like exploration.</div>
+          <div>There's something so extraordinary about nature and the drastically different cultures of people around Earth. I've offroaded with my dad across 8 US states, border to border, 95% on dirt trails. We carry 50-80 pounds of gear to stay self-sufficient.</div> 
+          <div class="layout-x">
+            <img src="assets/advpic.jpg"> 
+            <div class="layout-y">
+              <img src="assets/clouddrone.jpg"> 
+              <img src="assets/onmoto.jpg"> 
+            </div>
+          </div>
+        </div>
+
+        <div class="content-line-x"></div>
+
+        <div class="sub-content">
+          <div class="">04</div>
+          <div class="text-dark">I despise social media and phones.</div>
+          <div>I believe social media and phones to be the downfall of our generation. Used responsively, both are amazing tools. We are living in a dystopian reality where authenticity and the real world are being abandoned for a false and detrimal, digital world.</div> 
+        </div>
+
+        <div class="content-line-x"></div>
+
+        <div class="sub-content">
+          <div class="">05</div>
+          <div class="text-dark">Civ 5 is my favorite game.</div>
           <div>Two dimensional and turn based. Sounds boring, but I think Civ 5 is the most immersive game ever made. There's nothing like commanding an entire country from a medieval tribe to a nuclear superpower with the fate of billions at your fingertips.</div> 
         </div>
 
+        <!-- Thoughts -->
+
+        <div id="thoughts" class="sub-content">
+          <div class="content-line-x"></div>
+          <div class="text-dark">My Thoughts</div>
+          <div class="content-line-x"></div>
+        </div>
+
+        <div class="sub-content">
+          <a href="thoughts/testblog.html" class="blog-item">
+            <div class="text-dark">1. config.lucas</div>
+            <div>05.05.2025</div>
+          </a>
+        </div>
+
+        <!-- Projects -->
+
+        <div id="projects" class="sub-content">
+          <div class="content-line-x"></div>
+          <div class="text-dark">Projects</div>
+          <div class="content-line-x"></div>
+        </div>
+
+        <div class="sub-content">
+          <div class="">01</div>
+          <div class="side-item">
+            <div class="text-dark">definitive-opensource</div>
+            <div class="icons">
+              <a href="https://github.com/mustbeperfect/definitive-opensource">
+                <i class="bi bi-github"></i>
+              </a>
+            </div>
+          </div>
+          <div>This is my passion and life project; a place to consolidate the best of open source projects in a modern and scalable way. It functions with a mix of automation and human input.</div> 
+        </div>
+
         <div class="content-line-x"></div>
 
         <div class="sub-content">
-          <div class="">#thought</div>
-          <div class="text-dark">Social media will destroy us.</div>
-          <div>I believe </div>
+          <div class="">02</div>
+          <div class="side-item">
+            <div class="text-dark">definitiveos.com</div>
+            <div class="icons">
+              <a href="https://definitiveos.com">
+                <i class="bi bi-globe2"></i>
+              </a>
+              <a href="https://github.com/mustbeperfect/definitive-opensource-web">
+                <i class="bi bi-github"></i>
+              </a>
+            </div>
+          </div>
+          <div>A companion site for definitive-opensource, built with the Nuxt framework. It pulls data from applications.json and displays them with features not possible with a README like filtering and searching.</div> 
         </div>
+
+        <div class="content-line-x"></div>
+
+        <div class="sub-content">
+          <div class="">03</div>
+          <div class="side-item">
+            <div class="text-dark">joerpg</div>
+            <div class="icons">
+              <a href="https://github.com/mustbeperfect/joerpg">
+                <i class="bi bi-github"></i>
+              </a>
+            </div>
+          </div>
+          <div>An NPC generator for RPG's. Stats, race, and sex are generated with Math.random(). These values are then passed into Ollama (a way to run local LLM's) which generates a description, skills, and inventory. For optimal results you ned to train a local model (I like Gemma3) on your RPG's documentation so that you get relevant information.</div> 
+          <img src="assets/joerpg.png"> 
+        </div>
+
       </div>
+
+      <div class="content-line-x"></div>
+
+      <footer class="sub-content">
+        <div>Source code on <a href="https://github.com/mustbeperfect/lucasjulien" class="text-link">GitHub</a>.</div>
+      </footer>
+
     </main>
 
   </body>
