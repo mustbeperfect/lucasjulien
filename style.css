@@ -1,8 +1,7 @@
 /* Imports */
 
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Niconne&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&f[]=dancing-script@700&display=swap');
 
 /* Globals */
 
@@ -264,9 +263,10 @@ img {
 }
 
 .button-housing div {
-    font-family: 'Satoshi', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 16px;
     font-weight: 500;
+    letter-spacing: 2px;
     color: black;
     background-color: white;
 }
