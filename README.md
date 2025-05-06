@@ -1,6 +1,6 @@
 Source for **lucasjulien.com**.
 
-Domain and DNS powered by **cloudflare**. Deployed with **Vercel**.
+Domain and DNS powered by **Cloudflare**. Deployed with **Vercel**.
 
 Minimal. Raw HTML and CSS. 
 
