@@ -20,7 +20,7 @@ body {
     font-family: sans-serif;
     display: flex;
     background-color: var(--gray-e);
-  }
+}
 
 :root {
     --gray-1: #111111;
@@ -51,9 +51,6 @@ body {
     height: 100%;
     width: 100%;
     gap: 25px;
-}
-
-.main-section div {
     font-size: 18px;
     font-family: 'Noto Serif', Times, serif;
     color: var(--gray-6);
