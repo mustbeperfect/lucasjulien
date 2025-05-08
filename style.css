@@ -131,7 +131,7 @@ img {
     align-items: stretch;
 }
 
-.layout-x > img {
+.layout-x img {
     flex: 1;
     object-fit: cover;
 }
@@ -220,6 +220,10 @@ img {
     color: black !important;
 }
 
+.text-light {
+    color: var(--gray-6) !important;
+}
+
 .icon {
     width: 50px;
     height: 50px;
@@ -240,6 +244,13 @@ img {
     text-decoration: none;
     color: black;
     cursor: pointer;
+}
+
+.books {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .button-housing {
@@ -281,6 +292,20 @@ img {
     display: flex;
     gap: 5px;
 }
+
+.blog {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.blog div {
+    width: 500px;
+    padding: 25px;
+}
+
+
 
 /* Responsive */
 
