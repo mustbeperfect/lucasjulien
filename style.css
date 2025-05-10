@@ -246,6 +246,12 @@ img {
     cursor: pointer;
 }
 
+.link {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--gray-6);
+}
+
 .books {
     text-decoration: none;
     display: flex;
@@ -297,12 +303,23 @@ img {
     width: 100%;
     display: flex;
     justify-content: center;
-
 }
 
 .blog div {
     width: 500px;
     padding: 25px;
+}
+
+.onehundred {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.onehundred ol {
+    width: 500px;
+    padding: 50px;
+    font-family: 'Noto Serif', Times, serif;
 }
 
 
