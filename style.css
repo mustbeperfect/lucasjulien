@@ -81,9 +81,9 @@ body {
 .sidebar {
     display: flex;
     font-family: 'Baskervville', cursive;
-    justify-content: center;
     font-style: italic;
     align-items: center;
+    justify-content: center;
     color: var(--gray-7);
     font-size: 18px;
     height: 100vh;
@@ -277,9 +277,10 @@ img {
 }
 
 .button-housing div {
-    font-family: 'Verdana', sans-serif;
+        font-family: 'Baskervville', cursive;
+    font-style: italic;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 2px;
     color: black;
     background-color: white;
