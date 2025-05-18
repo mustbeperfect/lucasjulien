@@ -277,8 +277,7 @@ img {
 }
 
 .button-housing div {
-        font-family: 'Baskervville', cursive;
-    font-style: italic;
+    font-family: 'Noto Serif', Times, serif;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 2px;
