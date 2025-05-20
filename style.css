@@ -238,6 +238,7 @@ img {
     border-width: 1px;
     border-color: var(--gray-d);
     cursor: pointer;
+    text-align: center;
 }
 
 .text-link {
